@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- custom css cdn link here -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap css cdn link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="d-flex">
+        <header class="bg-dark p-5 position-sticky" id="header-tag">
+            <div class="text-center">
+                <h3 class="text-white">BILLIONAIRE</h3>
+                <p class="text-secondary fw-semibold">DIARY</p>
+            </div>
+            <div class="text-center pt-5 d-flex flex-column gap-4">
+                <button class="border-0 py-1">Add a user</button>
+                <button class="border-0 py-1">Double Money</button>
+                <button class="border-0 py-1">Sort By Rank</button>
+                <button class="border-0 py-1">Calculate Entire Wealth</button>
+                <!-- hr style with div -->
+                <div class="hr-write"></div>
+                <button class="border-0 py-1" id="all-billionairy-btn">Show All Billionaires</button>
+                <button class="border-0 py-1">Richest by industry</button>
+                <button class="border-0 py-1">Richest by states</button>
+
+            </div>
+        </header>
+        <section class="bg-light w-100 px-5">
+            <section class="d-flex justify-content-between align-items-center px-5">
+                <div class="input-group mb-3">
+                    <div class="border-bottom">
+                        <input class="border-0 bg-transparent pb-2" type="text" placeholder="Search">
+                    </div>
+                  </div>
+                  <div>
+                    <img src="../images/logo/logo1.png" alt="">
+                  </div>
+            </section>
+            <section class="p-5">
+                <div class="">
+                    <h2 class="fs-1">Hello, User!</h2>
+                </div>
+                <div class="py-5">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Person</th>
+                            <th scope="col">Citizenship</th>
+                            <th scope="col">Industry</th>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Wealth</th>
+                          </tr>
+                        </thead>
+                        <tbody id="table-container">
+                          
+                        </tbody>
+                      </table>
+                    <hr>
+                    <div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>    
+    
+    <!-- Bootstrap cdn link added here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Custom javacript file link added here -->
+    <script src="./task-two.js"></script>
+</body>
+</html>
