@@ -4,7 +4,7 @@ const loadBillionairies = async ()=>{
     const data = await res.json();
     displayBillionaries(data);
 }
-
+// displaying data
 const displayBillionaries=data =>{
     const dataSli = data.slice(0, 100)
     console.log(dataSli);
